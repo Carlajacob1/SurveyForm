@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="style2.css" type="text/css" />
+</head>
+<body>
+<link href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC|Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+
+
+<div id="survey">
+  <h1 id="title">Net<span>flix</span></h1>
+  <center><p id="description">Thank you for signing up at Netflix. Tell us more about your self</p></center>
+  <form id="survey-form">
+
+    <div class="form-inner">
+    <div class="marg">
+  <label for"name" id="name-label">Name</label><br/>
+    <input type="text" placeholder="Enter your name" id="name" required><br/>
+    </div>
+    <div class="marg">
+   <label id="email-label">Email</label><br/>
+ <input type="email" placeholder="Enter your email" id="email" required ><br/>
+    </div>
+    <div class="marg">
+   <label id="number-label">Age</label><br/>
+   <input type="number" min="18" max="65" placeholder="Enter your age" id="number" required ><br/>
+    </div>
+    <div class="marg">
+    <label id="dropdown-label">Content type</label><br/>
+    <select id="dropdown">
+  <option value="volvo">Movie</option>
+  <option value="saab">Series</option>
+  
+    </select><br/>
+    </div>
+      <div class="marg">
+  <form-group>
+        <center><label for="movie_type" id="movie_type"> <b>Movie Type:</b> </label>
+<br>
+  <input id="movie_type" type="radio" name="color" value="action">
+  <label for=""movie_type"> Action </label>
+<br>
+  <input id="movie_type" type="radio" name="color" value="anime">
+  <label for="movie_type"> Anime </label>
+<br>
+  <input id="movie_typer" type="radio" name="color" value="comedies">
+  <label for=""movie_type"> Drama </label>
+          <br>
+    <input id="movie_typer" type="radio" name="color" value="comedies">
+  <label for=""movie_type"> Horror </label>
+                      <br><input id="movie_typer" type="radio" name="color" value="comedies">
+  <label for=""movie_type"> Sci-Fi </label>
+                          <br></center>
+      </div>
+    </form-group>
+      <label id="select-label">Choose your plan</label><br/>
+    <label>
+      </div>
+    <div class="marg-se">
+<input type="checkbox" id="first-check" name="vehicle1" value="Bike">BASIC<br/>
+    </label>
+    <label>
+<input type="checkbox" id="second-check"name="vehicle2" value="Car">STANDARD<br/>
+      <label>
+<input type="checkbox" id="thi-check" name="vehicle3" value="Boat" checked>PREMIUM<br/>
+      </label>
+    
+    <div class="marg">
+    <label id="feed-label">Feed back</label><br/>
+        </div>
+        <div class="marg-se">
+    <textarea  class="text-area" placeholder="any comment"> 
+    </textarea><br/>
+    </div>
+    <input type="submit" id="submit">
+  </form>
+    </div>
+</div>
+</body>
+</html>
